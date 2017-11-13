@@ -1,0 +1,7 @@
+{
+  "extensions":[
+    { "name": "DurableTaskExtension", "typeName":"Microsoft.Azure.WebJobs.Extensions.DurableTask.DurableTaskExtension, Microsoft.Azure.WebJobs.Extensions.DurableTask, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"},
+    { "name": "MicrosoftGraphExtensionConfig", "typeName":"Microsoft.Azure.WebJobs.Extensions.MicrosoftGraph.MicrosoftGraphExtensionConfig, Microsoft.Azure.WebJobs.Extensions.O365, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"},
+    { "name": "AuthTokenExtensionConfig", "typeName":"Microsoft.Azure.WebJobs.Extensions.AuthTokens.AuthTokenExtensionConfig, Microsoft.Azure.WebJobs.Extensions.Tokens, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"}
+  ]
+}

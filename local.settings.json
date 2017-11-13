@@ -1,0 +1,29 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "WEBSITE_AUTH_CLIENT_ID": "d29bbb09-84e5-400f-a737-a4bdb4ee7640",
+    "WEBSITE_AUTH_CLIENT_SECRET": "/1jLlOtVfNkWK4ygXGqyVm34yavT+I7xLpYO0iW3dLo=",
+    "WEBSITE_AUTH_TOKEN_STORE": "True",
+    "WEBSITE_SLOT_NAME": "Production",
+    "WEBSITE_AUTH_FB_SCOPE": "",
+    "FUNCTIONS_EXTENSION_VERSION": "beta",
+    "WEBSITE_ENCRYPTION_KEY": "16QBksmrO20KUIkpwpZbx/ug8IfsFQerjG1RkzzzPKI=",
+    "ScmType": "None",
+    "WEBSITE_AUTH_ENABLED": "True",
+    "REMOTEDEBUGGINGVERSION": "15.0.26730.8",
+    "WEBSITE_AUTH_MSA_SCOPE": "",
+    "WEBSITE_AUTH_UNAUTHENTICATED_ACTION": "RedirectToLoginPage",
+    "APPINSIGHTS_INSTRUMENTATIONKEY": "0b5702bc-9a15-4cf7-bdbf-ac74fd927bc9",
+    "WEBSITE_AUTH_OPENID_ISSUER": "https://sts.windows.net/04a57c7b-4d03-490e-90e6-0d641e19a8e5/",
+    "AzureWebJobsDashboard": "DefaultEndpointsProtocol=https;AccountName=connect178670;AccountKey=ulwcyHKkTgehn3dJYJLnZT/Tzt2OyS1uvBHNQaaEZyajQ3RcMf9Awj/4DnjjF/ppljNWup7Cv2C3/n+76FgGaw==",
+    "WEBSITE_NODE_DEFAULT_VERSION": "6.5.0",
+    "WEBSITE_CONTENTAZUREFILECONNECTIONSTRING": "DefaultEndpointsProtocol=https;AccountName=connect178670;AccountKey=ulwcyHKkTgehn3dJYJLnZT/Tzt2OyS1uvBHNQaaEZyajQ3RcMf9Awj/4DnjjF/ppljNWup7Cv2C3/n+76FgGaw==",
+    "WEBSITE_CONTENTSHARE": "connect178670",
+    "WEBSITE_AUTH_ALLOWED_AUDIENCES": "https://connect17.azurewebsites.net/.auth/login/aad/callback",
+    "WEBSITE_AUTH_AUTO_AAD": "True",
+    "AzureWebJobsStorage": "DefaultEndpointsProtocol=https;AccountName=connect178670;AccountKey=ulwcyHKkTgehn3dJYJLnZT/Tzt2OyS1uvBHNQaaEZyajQ3RcMf9Awj/4DnjjF/ppljNWup7Cv2C3/n+76FgGaw==",
+    "WEBSITE_SITE_NAME": "Connect17",
+    "WEBSITE_AUTH_LOGOUT_PATH": "/.auth/logout",
+    "WEBSITE_AUTH_DEFAULT_PROVIDER": "AzureActiveDirectory"
+  }
+}
