@@ -20,7 +20,9 @@ public static async Task<HttpResponseMessage> Run(HttpRequestMessage req, string
             }
         )
     );
-    
+
+    log.Info("Function is now running");
+
     //Fetch users
     List<Recipient> recipientList = new List<Recipient>();    
     IGraphServiceUsersCollectionPage users = null;
@@ -45,7 +47,7 @@ public static async Task<HttpResponseMessage> Run(HttpRequestMessage req, string
             }  
             catch (ServiceException e)
             {
-                
+                log.Info("Could not find photo for user: " + user.DisplayName);
                 recipientList.Add(
                     new Recipient
                     {
@@ -64,10 +66,10 @@ public static async Task<HttpResponseMessage> Run(HttpRequestMessage req, string
     {
         Body = new ItemBody
         {
-            Content = "",
+            Content = "We couldn't find a profile photo for you. Please set it at <a href='https://support.office.com/en-us/article/Add-your-profile-photo-to-Office-365-2eaf93fd-b3f1-43b9-9cdc-bdcd548435b7'> Office.com </a>.",
             ContentType = BodyType.Html,
         },
-        Subject = "Hello",
+        Subject = "Your profile photo is missing.",
         BccRecipients = recipientList,
     };
     
